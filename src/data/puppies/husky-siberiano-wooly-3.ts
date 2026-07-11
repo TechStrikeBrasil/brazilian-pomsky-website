@@ -1,0 +1,22 @@
+import photo1 from "../../assets/puppies/husky-siberiano-wooly-3/photo-1.jpg"
+import photo2 from "../../assets/puppies/husky-siberiano-wooly-3/photo-2.jpg"
+import photo3 from "../../assets/puppies/husky-siberiano-wooly-3/photo-3.jpg"
+
+
+export const huskyWooly3 = [
+  {
+    id: 3,
+    name: "Husky S. Wolly - Silver Mist Macho",
+    description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
+    age: "2 meses",
+    price: "R$ 6.900,00",
+    youtubeId: "3liZc1Kcd9w",
+    image: photo1,
+    gallery: [
+      photo1,
+      photo2,
+      photo3,
+    ],
+    detail: "Husky S. Wolly - Silver Mist é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
+  }
+]

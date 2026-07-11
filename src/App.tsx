@@ -1,15 +1,14 @@
 import { useEffect, useState } from "react";
 
+import type { Puppy } from "./types/puppy";
+import { PUPPIES } from "./data/puppies";
+
 import photoHero from "../src/assets/photos/photo_hero.jpg";
 import photoDog1 from "../src/assets/photos/photo_dog_1.jpg";
 import photoMedals from "../src/assets/photos/photo_medals.jpg";
 
 import photoRanch from "../src/assets/photos/photo_ranch.jpg";
 import photoFamily from "../src/assets/photos/photo_family.jpg";
-
-import puppyApolo from "../src/assets/puppy-apolo.png";
-import puppyLuna from "../src/assets/puppy-luna.png";
-import puppyThor from "../src/assets/puppy-thor.png";
 
 // Configure o número de WhatsApp do criador aqui.
 const WHATSAPP_NUMBER = "5511956397507";
@@ -71,7 +70,7 @@ function Hero() {
             Excelência que se vê. Amor que se sente.
           </h1>
           <p className="mb-8 mt-6 max-w-[45ch] text-lg text-muted-foreground text-pretty">
-            Criamos Husky Siberiano Wooly, Pomsky, Spitz Alemão e Cavalier King com excelência genética. Onde são criados em um ambiente livre, cercado por natureza, carinho e amor, sempre priorizando saúde, equilíbrio e bem-estar.
+            Criamos Husky Siberiano Wolly, Pomsky, Spitz Alemão e Cavalier King com excelência genética. Onde são criados em um ambiente livre, cercado por natureza, carinho e amor, sempre priorizando saúde, equilíbrio e bem-estar.
           </p>
           <a
             href="#filhotes"
@@ -161,56 +160,6 @@ function About() {
   );
 }
 
-type Puppy = {
-  id: string;
-  name: string;
-  description: string;
-  detail: string;
-  price: string;
-  image: string;
-  age: string;
-  // Substitua pelos IDs dos vídeos não listados do YouTube (ex: "dQw4w9WgXcQ").
-  youtubeId: string;
-  // Fotos adicionais do filhote para exibir na galeria do modal.
-  gallery: string[];
-};
-
-const puppies: Puppy[] = [
-  {
-    id: "lilac1",
-    name: "Lilac Light F",
-    description: "Cinza & Branco - Olhos Azuis",
-    detail: "Pelagem espessa e olhar marcante. Brincalhona e muito afetuosa.",
-    price: "R$ 7.500",
-    image: puppyApolo,
-    age: "45 dias",
-    youtubeId: "CrAIEJcqzbM",
-    gallery: [puppyApolo, puppyLuna, puppyThor],
-  },
-  {
-    id: "blackd1",
-    name: "Black Diamond F",
-    description: "Preto & Branco - Olhos Heterocromia",
-    detail: "Personalidade doce e curiosa. Adora explorar o gramado.",
-    price: "R$ 7.500",
-    image: puppyLuna,
-    age: "50 dias",
-    youtubeId: "QSgjr-3jz5g",
-    gallery: [puppyLuna, puppyApolo, puppyThor],
-  },
-  {
-    id: "chocovelvet1",
-    name: "Choco Velvet M",
-    description: "Cobre - Olhos Azuis",
-    detail: "Coloração rara e temperamento calmo. Excelente para famílias.",
-    price: "R$ 6.900",
-    image: puppyThor,
-    age: "45 dias",
-    youtubeId: "zPNstjf1KWo",
-    gallery: [puppyThor, puppyApolo, puppyLuna],
-  },
-];
-
 function Puppies() {
   const [selected, setSelected] = useState<Puppy | null>(null);
 
@@ -223,12 +172,12 @@ function Puppies() {
             <p className="mt-2 text-muted-foreground">Filhotes de Husky Siberiano disponíveis para reserva</p>
           </div>
           <span className="hidden font-mono text-xs uppercase tracking-widest text-muted-foreground sm:block">
-            Disponibilidade: 03 filhotes
+            Disponibilidade: {PUPPIES.length} filhotes
           </span>
         </div>
 
         <div className="grid gap-8 md:grid-cols-3">
-          {puppies.map((puppy, index) => (
+          {PUPPIES.map((puppy, index) => (
             <div
               key={puppy.id}
               className="group animate-reveal"
