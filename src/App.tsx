@@ -172,36 +172,36 @@ type Puppy = {
 
 const puppies: Puppy[] = [
   {
-    id: "apolo",
-    name: "Apolo",
-    description: "Cinza & Branco • Olhos Azuis",
-    detail: "Pelagem espessa e olhar marcante. Brincalhão e muito afetuoso.",
-    price: "R$ 4.800",
+    id: "lilac1",
+    name: "Lilac Light F",
+    description: "Cinza & Branco - Olhos Azuis",
+    detail: "Pelagem espessa e olhar marcante. Brincalhona e muito afetuosa.",
+    price: "R$ 7.500",
     image: puppyApolo,
     age: "45 dias",
-    youtubeId: "",
+    youtubeId: "CrAIEJcqzbM",
     gallery: [puppyApolo, puppyLuna, puppyThor],
   },
   {
-    id: "luna",
-    name: "Luna",
-    description: "Preto & Branco • Olhos Heterocromia",
+    id: "blackd1",
+    name: "Black Diamond F",
+    description: "Preto & Branco - Olhos Heterocromia",
     detail: "Personalidade doce e curiosa. Adora explorar o gramado.",
-    price: "R$ 5.200",
+    price: "R$ 7.500",
     image: puppyLuna,
     age: "50 dias",
-    youtubeId: "",
+    youtubeId: "QSgjr-3jz5g",
     gallery: [puppyLuna, puppyApolo, puppyThor],
   },
   {
-    id: "thor",
-    name: "Thor",
-    description: "Cobre • Olhos Mel",
+    id: "chocovelvet1",
+    name: "Choco Velvet M",
+    description: "Cobre - Olhos Azuis",
     detail: "Coloração rara e temperamento calmo. Excelente para famílias.",
-    price: "R$ 4.500",
+    price: "R$ 6.900",
     image: puppyThor,
     age: "45 dias",
-    youtubeId: "",
+    youtubeId: "zPNstjf1KWo",
     gallery: [puppyThor, puppyApolo, puppyLuna],
   },
 ];
@@ -250,9 +250,14 @@ function Puppies() {
                   <p className="text-sm text-muted-foreground">{puppy.description}</p>
                   <p className="mt-2 max-w-[30ch] text-sm text-muted-foreground">{puppy.detail}</p>
                 </div>
+              <div className="flex flex-col items-end gap-1.5">
                 <span className="rounded-full border border-border bg-background px-3 py-1 font-mono text-sm">
                   {puppy.price}
                 </span>
+                <span className="rounded-full bg-primary/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary">
+                  Parcelamento em até 12x sem juros no cartão!
+                </span>
+              </div>
               </div>
               <div className="mt-4 flex gap-2">
                 <button
@@ -475,8 +480,8 @@ function Footer() {
           </a>
         </div>
         <div className="mt-20 flex w-full flex-col items-center justify-between gap-4 border-t border-background/10 pt-8 text-[10px] uppercase tracking-widest opacity-40 md:flex-row">
-          <span>Brazilian Pomsky © 2024</span>
-          <span>Interior de São Paulo, Brasil</span>
+          <span>Brazilian Pomsky © 2026</span>
+          <span>São Paulo, Brasil</span>
         </div>
       </div>
     </footer>
