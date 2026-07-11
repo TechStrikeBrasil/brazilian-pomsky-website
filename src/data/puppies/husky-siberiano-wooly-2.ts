@@ -11,6 +11,9 @@ export const huskyWooly2 = [
     price: "R$ 6.900,00",
     youtubeId: "71GjAvS13Qk",
     image: photo1,
+    age: "2 meses",
+    rare: false,
+    sex: "Macho",
     gallery: [
       photo1,
       photo2,

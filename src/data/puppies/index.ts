@@ -12,9 +12,10 @@ import { huskyWooly11 } from "./husky-siberiano-wooly-11"
 import { huskyWooly12 } from "./husky-siberiano-wooly-12"
 import { huskyWooly13 } from "./husky-siberiano-wooly-13"
 
+import type { Puppy } from "../../types/puppy"
 
 
-export const PUPPIES = [
+export const PUPPIES: Puppy[] = [
   ...huskyWooly1,
   ...huskyWooly2,
   ...huskyWooly3,

@@ -186,7 +186,7 @@ function Puppies() {
               <button
                 type="button"
                 onClick={() => setSelected(puppy)}
-                className="mb-4 block aspect-[4/5] w-full overflow-hidden rounded-2xl outline outline-1 -outline-offset-1 outline-foreground/10 transition-all group-hover:ring-2 group-hover:ring-primary/20"
+                className="relative mb-4 block aspect-[4/5] w-full overflow-hidden rounded-2xl outline outline-1 -outline-offset-1 outline-foreground/10 transition-all group-hover:ring-2 group-hover:ring-primary/20"
                 aria-label={`Ver galeria e vídeo de ${puppy.name}`}
               >
                 <img
@@ -197,21 +197,31 @@ function Puppies() {
                   width={800}
                   height={1008}
                 />
+                 <div className="absolute left-3 top-3 flex flex-wrap gap-2">
+                  <span className="rounded-full bg-background/90 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-foreground backdrop-blur-sm">
+                    {puppy.sex}
+                  </span>
+                  {puppy.rare ? (
+                    <span className="rounded-full bg-primary px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-primary-foreground shadow-sm">
+                      RARO!
+                    </span>
+                  ) : null}
+                </div>
               </button>
-              <div className="flex items-start justify-between">
+              <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3 className="text-lg font-medium">{puppy.name}</h3>
                   <p className="text-sm text-muted-foreground">{puppy.description}</p>
                   <p className="mt-2 max-w-[30ch] text-sm text-muted-foreground">{puppy.detail}</p>
                 </div>
               <div className="flex flex-col items-end gap-1.5">
-                <span className="rounded-full border border-border bg-background px-3 py-1 font-mono text-sm">
-                  {puppy.price}
-                </span>
-                <span className="rounded-full bg-primary/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary">
-                  Parcelamento em até 12x sem juros no cartão!
-                </span>
-              </div>
+                  <span className="rounded-full border border-border bg-background px-3 py-1 font-mono text-sm">
+                    {puppy.price}
+                  </span>
+                  <span className="rounded-full bg-primary/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary">
+                    Parcelamento em até 12x sem juros no cartão!
+                  </span>
+                </div>
               </div>
               <div className="mt-4 flex gap-2">
                 <button
