@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import type { Puppy } from "./types/puppy";
 import { PUPPIES } from "./data/puppies";
 
+import logo from "../src/assets/photos/logo.jpg";
+
 import photoHero from "../src/assets/photos/photo_hero.jpg";
 import photoDog1 from "../src/assets/photos/photo_dog_1.jpg";
 import photoMedals from "../src/assets/photos/photo_medals.jpg";
@@ -38,9 +40,18 @@ function Navigation() {
   return (
     <nav className="sticky top-0 z-50 border-b border-border bg-background/80 px-6 py-4 backdrop-blur-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
-        <span className="font-display text-xl font-bold italic tracking-tight">
-          Brazilian Pomsky
-        </span>
+        <a href="#top" className="flex items-center gap-3">
+          <img
+            src={logo}
+            alt="Logotipo Brazilian Pomsky"
+            className="h-10 w-auto rounded-md"
+            width={160}
+            height={40}
+          />
+          <span className="font-display text-xl font-bold italic tracking-tight">
+            Brazilian Pomsky
+          </span>
+        </a>
         <div className="hidden items-center gap-8 text-sm font-medium tracking-wide md:flex">
           <a href="#filhotes" className="transition-colors hover:text-primary">
             Filhotes
@@ -212,12 +223,8 @@ function Puppies() {
                 <div>
                   <h3 className="text-lg font-medium">{puppy.name}</h3>
                   <p className="text-sm text-muted-foreground">{puppy.description}</p>
-                  <p className="mt-2 max-w-[30ch] text-sm text-muted-foreground">{puppy.detail}</p>
                 </div>
               <div className="flex flex-col items-end gap-1.5">
-                  <span className="rounded-full border border-border bg-background px-3 py-1 font-mono text-sm">
-                    {puppy.price}
-                  </span>
                   <span className="rounded-full bg-primary/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-primary">
                     Parcelamento em até 12x sem juros no cartão!
                   </span>

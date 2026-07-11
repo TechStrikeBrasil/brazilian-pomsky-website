@@ -7,7 +7,7 @@ import photo3 from "../../assets/puppies/husky-siberiano-wooly-7/photo-3.jpg"
 export const huskyWooly7 = [
   {
     id: 7,
-    name: "Husky S. Wolly - Chocolate Velvet Macho",
+    name: "Husky Wolly - Chocolate Velvet Macho",
     description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
     price: "R$ 6.900,00",
     youtubeId: "tpqau9LhzA4",
@@ -20,6 +20,6 @@ export const huskyWooly7 = [
       photo2,
       photo3,
     ],
-    detail: "Husky S. Wolly - Chocolate Velvet é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
+    detail: "Husky Siberiano Wolly - Chocolate Velvet é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
   }
 ] satisfies Puppy[];
