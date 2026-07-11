@@ -8,7 +8,6 @@ export const huskyWooly12 = [
     id: 12,
     name: "Husky S. Wolly - Chocolate Velvet Macho",
     description: "Raríssimo exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
-    age: "2 meses",
     price: "R$ 6.900,00",
     youtubeId: "khP3eAXe6ng",
     image: photo1,

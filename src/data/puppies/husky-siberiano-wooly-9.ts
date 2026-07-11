@@ -8,7 +8,6 @@ export const huskyWooly9 = [
     id: 9,
     name: "Husky S. Wolly - Chocolate Intense Fêmea",
     description: "Raríssimo exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
-    age: "2 meses",
     price: "R$ 7.500,00",
     youtubeId: "qYxyA7yne9s",
     image: photo1,

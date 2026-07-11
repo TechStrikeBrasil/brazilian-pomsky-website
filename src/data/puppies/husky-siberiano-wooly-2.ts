@@ -8,7 +8,6 @@ export const huskyWooly2 = [
     id: 2,
     name: "Husky S. Wolly - Silver Mist Macho",
     description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
-    age: "2 meses",
     price: "R$ 6.900,00",
     youtubeId: "71GjAvS13Qk",
     image: photo1,

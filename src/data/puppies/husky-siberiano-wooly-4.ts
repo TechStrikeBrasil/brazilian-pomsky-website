@@ -8,7 +8,6 @@ export const huskyWooly4 = [
     id: 4,
     name: "Husky S. Wolly - Lilac Light Fêmea",
     description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
-    age: "2 meses",
     price: "R$ 7.500,00",
     youtubeId: "3zjDMT23-jU",
     image: photo1,

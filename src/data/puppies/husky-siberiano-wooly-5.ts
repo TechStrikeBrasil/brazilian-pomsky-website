@@ -8,7 +8,6 @@ export const huskyWooly5 = [
     id: 5,
     name: "Husky S. Wolly - Black Diamond Fêmea",
     description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
-    age: "2 meses",
     price: "R$ 7.500,00",
     youtubeId: "ZyWQ2fQatJ0",
     image: photo1,
