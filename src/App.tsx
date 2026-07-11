@@ -300,9 +300,6 @@ function PuppyModal({ puppy, onClose }: { puppy: Puppy; onClose: () => void }) {
               <h3 className="font-display text-3xl">{puppy.name}</h3>
               <p className="text-sm text-muted-foreground">{puppy.description}</p>
             </div>
-            <span className="rounded-full border border-border bg-background px-3 py-1 font-mono text-sm">
-              {puppy.price}
-            </span>
           </div>
 
           {puppy.youtubeId ? (
