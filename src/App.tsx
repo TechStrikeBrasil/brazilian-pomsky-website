@@ -1,11 +1,15 @@
 import { useEffect, useState } from "react";
 
-import heroHusky from "../src/assets/hero-husky.png";
+import photoHero from "../src/assets/photos/photo_hero.jpg";
+import photoDog1 from "../src/assets/photos/photo_dog_1.jpg";
+import photoMedals from "../src/assets/photos/photo_medals.jpg";
+
+import photoRanch from "../src/assets/photos/photo_ranch.jpg";
+import photoFamily from "../src/assets/photos/photo_family.jpg";
+
 import puppyApolo from "../src/assets/puppy-apolo.png";
 import puppyLuna from "../src/assets/puppy-luna.png";
 import puppyThor from "../src/assets/puppy-thor.png";
-import farmAerial from "../src/assets/farm-aerial.png";
-import farmInterior from "../src/assets/farm-interior.png";
 
 // Configure o número de WhatsApp do criador aqui.
 const WHATSAPP_NUMBER = "5511956397507";
@@ -64,10 +68,10 @@ function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
         <div className="animate-reveal">
           <h1 className="font-display text-5xl leading-[1.1] text-balance md:text-7xl">
-            Criando companheiros em solo brasileiro.
+            Excelência que se vê. Amor que se sente.
           </h1>
           <p className="mb-8 mt-6 max-w-[45ch] text-lg text-muted-foreground text-pretty">
-            Desde 2014, dedicados ao bem-estar e à linhagem do Husky Siberiano em um ambiente de liberdade, ar puro e muito carinho no interior de São Paulo.
+            Criamos Husky Siberiano Wooly, Pomsky, Spitz Alemão e Cavalier King com excelência genética. Onde são criados em um ambiente livre, cercado por natureza, carinho e amor, sempre priorizando saúde, equilíbrio e bem-estar.
           </p>
           <a
             href="#filhotes"
@@ -80,7 +84,7 @@ function Hero() {
         <div className="animate-reveal" style={{ animationDelay: "150ms" }}>
           <div className="aspect-[4/5] overflow-hidden rounded-[2rem] outline outline-1 -outline-offset-1 outline-foreground/10">
             <img
-              src={heroHusky}
+              src={photoHero}
               alt="Husky siberiano majestoso em um campo ao pôr do sol no sítio Brazilian Pomsky"
               className="h-full w-full object-cover"
               width={1200}
@@ -103,14 +107,16 @@ function About() {
               Nossa História
             </span>
             <h2 className="font-display mb-6 text-4xl leading-tight">
-              Uma família apaixonada pela raça.
+              Uma família apaixonada pela criação.
             </h2>
             <div className="max-w-[40ch] space-y-6 leading-relaxed text-muted-foreground text-pretty">
               <p>
-                O Brazilian Pomsky nasceu do sonho de criar cães saudáveis, equilibrados e verdadeiramente felizes. O que começou como uma paixão por Huskies Siberianos se tornou uma missão: oferecer aos filhotes o melhor início de vida possível.
+                O Brazilian Pomsky nasceu do sonho de criar cães saudáveis, equilibrados e verdadeiramente felizes. 
+                O que começou como uma paixão, se tornou uma missão: oferecer aos filhotes o melhor início de vida do mundo e estar como o melhor canil do Brasil.
               </p>
               <p>
-                Criamos em ambiente familiar, com socialização constante, acompanhamento veterinário rigoroso e muito espaço para brincar. Acreditamos que um cão bem cuidado se torna um companheiro extraordinário.
+                Criamos em ambiente familiar, com socialização constante, genética selecionada, acompanhamento veterinário rigoroso e muito espaço para brincar.
+                Acreditamos que um cão bem cuidado se torna um companheiro extraordinário.
               </p>
             </div>
             <div className="mt-10 flex gap-4">
@@ -129,8 +135,8 @@ function About() {
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-[4/5] overflow-hidden rounded-xl outline outline-1 -outline-offset-1 outline-foreground/10">
                 <img
-                  src={farmAerial}
-                  alt="Vista aérea do sítio Brazilian Pomsky com áreas verdes e cercados"
+                  src={photoDog1}
+                  alt="Cão brasileiro Pomsky em ambiente natural"
                   className="h-full w-full object-cover"
                   loading="lazy"
                   width={816}
@@ -139,8 +145,8 @@ function About() {
               </div>
               <div className="mt-8 aspect-[4/5] overflow-hidden rounded-xl outline outline-1 -outline-offset-1 outline-foreground/10">
                 <img
-                  src={farmInterior}
-                  alt="Interior do canil do Brazilian Pomsky, aconchegante e limpo"
+                  src={photoMedals}
+                  alt="Prêmios recebidos pelo Brazilian Pomsky"
                   className="h-full w-full object-cover"
                   loading="lazy"
                   width={816}
@@ -400,8 +406,8 @@ function Farm() {
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square overflow-hidden rounded-xl outline outline-1 -outline-offset-1 outline-foreground/10">
                 <img
-                  src={farmAerial}
-                  alt="Estrutura do sítio Brazilian Pomsky vista de cima"
+                  src={photoRanch}
+                  alt="Foto do sítio Brazilian Pomsky"
                   className="h-full w-full object-cover"
                   loading="lazy"
                   width={816}
@@ -410,8 +416,8 @@ function Farm() {
               </div>
               <div className="mt-8 aspect-square overflow-hidden rounded-xl outline outline-1 -outline-offset-1 outline-foreground/10">
                 <img
-                  src={farmInterior}
-                  alt="Ambiente interno do canil do Brazilian Pomsky"
+                  src={photoFamily}
+                  alt="Família com cães brasileiros Pomsky"
                   className="h-full w-full object-cover"
                   loading="lazy"
                   width={816}
@@ -421,26 +427,27 @@ function Farm() {
             </div>
           </div>
           <div className="w-full md:w-1/2">
-            <h2 className="font-display mb-6 text-4xl">Liberdade e Natureza</h2>
+            <h2 className="font-display mb-6 text-4xl">Liberdade, Natureza e Excelência</h2>
             <p className="mb-6 leading-relaxed text-muted-foreground text-pretty">
-              Nosso sítio foi planejado para respeitar a energia da raça. Contamos com mais de 5.000m² de área verde, cercados amplos, sombra natural e ambientes climatizados para o descanso dos nossos cães.
+              Nosso rancho foi cuidadosamente planejado para oferecer o melhor aos nossos cães. 
+              São 13.000 m² de área verde, com cercados amplos, sombra natural, ambientes climatizados e uma estrutura desenvolvida para garantir liberdade, conforto e bem-estar em todas as fases da vida.
             </p>
             <ul className="space-y-4 text-sm font-medium">
               <li className="flex items-center gap-3">
                 <div className="size-1.5 rounded-full bg-primary" />
-                Monitoramento veterinário 24h
+                Descendentes de campeões Pan-Americanos e Sul-Americanos
               </li>
               <li className="flex items-center gap-3">
                 <div className="size-1.5 rounded-full bg-primary" />
-                Socialização diária controlada
+                Seleção genética criteriosa e criação responsável
               </li>
               <li className="flex items-center gap-3">
                 <div className="size-1.5 rounded-full bg-primary" />
-                Alimentação premium e suplementação
+                Socialização diária e acompanhamento veterinário
               </li>
               <li className="flex items-center gap-3">
                 <div className="size-1.5 rounded-full bg-primary" />
-                Transporte responsável para todo o Brasil
+                Alimentação premium e transporte responsável para todo o Brasil
               </li>
             </ul>
           </div>
