@@ -1,8 +1,8 @@
+import type { Puppy } from "@/types/puppy";
 import photo1 from "../../assets/puppies/husky-siberiano-wooly-1/photo-1.jpg"
 import photo2 from "../../assets/puppies/husky-siberiano-wooly-1/photo-2.jpg"
 import photo3 from "../../assets/puppies/husky-siberiano-wooly-1/photo-3.jpg"
 import photo4 from "../../assets/puppies/husky-siberiano-wooly-1/photo-4.jpg"
-
 
 export const huskyWooly1 = [
   {
@@ -23,4 +23,4 @@ export const huskyWooly1 = [
     ],
     detail: "Husky S. Wolly - Lilac Light é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
   }
-]
+] satisfies Puppy[];

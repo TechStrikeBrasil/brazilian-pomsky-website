@@ -1,7 +1,7 @@
+import type { Puppy } from "@/types/puppy";
 import photo1 from "../../assets/puppies/husky-siberiano-wooly-9/photo-1.jpg"
 import photo2 from "../../assets/puppies/husky-siberiano-wooly-9/photo-2.jpg"
 import photo3 from "../../assets/puppies/husky-siberiano-wooly-9/photo-3.jpg"
-
 
 export const huskyWooly9 = [
   {
@@ -21,4 +21,4 @@ export const huskyWooly9 = [
     ],
     detail: "Husky S. Wolly - Chocolate Intense é um exemplar raro da raça, com genética extremamente selecionada. Marcações perfeitas."
   }
-]
+] satisfies Puppy[];

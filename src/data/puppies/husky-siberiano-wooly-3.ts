@@ -1,3 +1,4 @@
+import type { Puppy } from "@/types/puppy";
 import photo1 from "../../assets/puppies/husky-siberiano-wooly-3/photo-1.jpg"
 import photo2 from "../../assets/puppies/husky-siberiano-wooly-3/photo-2.jpg"
 import photo3 from "../../assets/puppies/husky-siberiano-wooly-3/photo-3.jpg"
@@ -21,4 +22,4 @@ export const huskyWooly3 = [
     ],
     detail: "Husky S. Wolly - Silver Mist é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
   }
-]
+] satisfies Puppy[];

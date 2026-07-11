@@ -1,7 +1,7 @@
+import type { Puppy } from "@/types/puppy";
 import photo1 from "../../assets/puppies/husky-siberiano-wooly-6/photo-1.jpg"
 import photo2 from "../../assets/puppies/husky-siberiano-wooly-6/photo-2.jpg"
 import photo3 from "../../assets/puppies/husky-siberiano-wooly-6/photo-3.jpg"
-
 
 export const huskyWooly6 = [
   {
@@ -21,4 +21,4 @@ export const huskyWooly6 = [
     ],
     detail: "Husky S. Wolly - Lilac Champagne é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
   }
-]
+] satisfies Puppy[];

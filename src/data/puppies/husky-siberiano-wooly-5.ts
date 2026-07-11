@@ -1,7 +1,7 @@
+import type { Puppy } from "@/types/puppy";
 import photo1 from "../../assets/puppies/husky-siberiano-wooly-5/photo-1.jpg"
 import photo2 from "../../assets/puppies/husky-siberiano-wooly-5/photo-2.jpg"
 import photo3 from "../../assets/puppies/husky-siberiano-wooly-5/photo-3.jpg"
-
 
 export const huskyWooly5 = [
   {
@@ -21,4 +21,4 @@ export const huskyWooly5 = [
     ],
     detail: "Husky S. Wolly - Black Diamond é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
   }
-]
+] satisfies Puppy[];
