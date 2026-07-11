@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import heroHusky from "../src/assets/hero-husky.png";
 import puppyApolo from "../src/assets/puppy-apolo.png";
