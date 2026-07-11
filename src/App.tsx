@@ -8,7 +8,7 @@ import farmAerial from "../src/assets/farm-aerial.png";
 import farmInterior from "../src/assets/farm-interior.png";
 
 // Configure o número de WhatsApp do criador aqui.
-const WHATSAPP_NUMBER = "5511999999999";
+const WHATSAPP_NUMBER = "5511956397507";
 const WHATSAPP_MESSAGE = "Olá! Vi o site do Brazilian Pomsky e gostaria de saber mais sobre os filhotes disponíveis.";
 const INSTAGRAM_URL = "https://www.instagram.com/brazilianpomsky";
 
