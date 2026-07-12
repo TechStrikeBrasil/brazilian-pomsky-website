@@ -6,7 +6,7 @@ import photo3 from "../../assets/puppies/husky-siberiano-wooly-4/photo-3.jpg"
 export const huskyWooly4 = [
   {
     id: 4,
-    name: "Husky Wolly - Lilac Light Fêmea",
+    name: "Husky Wooly - Lilac Light Fêmea",
     description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
     price: "R$ 7.500,00",
     youtubeId: "3zjDMT23-jU",
@@ -19,6 +19,6 @@ export const huskyWooly4 = [
       photo2,
       photo3,
     ],
-    detail: "Husky Siberiano Wolly - Lilac Light é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
+    detail: "Husky Siberiano Wooly - Lilac Light é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
   }
 ] satisfies Puppy[];

@@ -6,7 +6,7 @@ import photo3 from "../../assets/puppies/husky-siberiano-wooly-2/photo-3.jpg"
 export const huskyWooly2 = [
   {
     id: 2,
-    name: "Husky Wolly - Silver Mist Macho",
+    name: "Husky Wooly - Silver Mist Macho",
     description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
     price: "R$ 6.900,00",
     youtubeId: "71GjAvS13Qk",
@@ -19,6 +19,6 @@ export const huskyWooly2 = [
       photo2,
       photo3,
     ],
-    detail: "Husky Siberiano Wolly - Silver Mist é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
+    detail: "Husky Siberiano Wooly - Silver Mist é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
   }
 ] satisfies Puppy[];

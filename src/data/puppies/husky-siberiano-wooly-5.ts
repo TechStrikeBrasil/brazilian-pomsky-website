@@ -6,7 +6,7 @@ import photo3 from "../../assets/puppies/husky-siberiano-wooly-5/photo-3.jpg"
 export const huskyWooly5 = [
   {
     id: 5,
-    name: "Husky Wolly - Black Diamond Fêmea",
+    name: "Husky Wooly - Black Diamond Fêmea",
     description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
     price: "R$ 7.500,00",
     youtubeId: "ZyWQ2fQatJ0",
@@ -19,6 +19,6 @@ export const huskyWooly5 = [
       photo2,
       photo3,
     ],
-    detail: "Husky Siberiano Wolly - Black Diamond é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
+    detail: "Husky Siberiano Wooly - Black Diamond é um exemplar perfeito da raça, com genética extremamente selecionada. Marcações perfeitas."
   }
 ] satisfies Puppy[];

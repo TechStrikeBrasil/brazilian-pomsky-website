@@ -81,7 +81,7 @@ function Hero() {
             Excelência que se vê. Amor que se sente.
           </h1>
           <p className="mb-8 mt-6 max-w-[45ch] text-lg text-muted-foreground text-pretty">
-            Criamos Husky Siberiano Wolly, Pomsky, Spitz Alemão e Cavalier King com excelência genética. Onde são criados em um ambiente livre, cercado por natureza, carinho e amor, sempre priorizando saúde, equilíbrio e bem-estar.
+            Criamos Husky Siberiano Wooly, Pomsky, Spitz Alemão e Cavalier King com excelência genética. Onde são criados em um ambiente livre, cercado por natureza, carinho e amor, sempre priorizando saúde, equilíbrio e bem-estar.
           </p>
           <a
             href="#filhotes"
