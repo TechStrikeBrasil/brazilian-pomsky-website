@@ -45,6 +45,7 @@ function Navigation() {
             src={logo}
             alt="Logotipo Brazilian Pomsky"
             className="h-10 w-auto rounded-md"
+            loading="lazy"
             width={160}
             height={40}
           />
@@ -94,6 +95,7 @@ function Hero() {
         <div className="animate-reveal" style={{ animationDelay: "150ms" }}>
           <div className="aspect-[4/5] overflow-hidden rounded-[2rem] outline outline-1 -outline-offset-1 outline-foreground/10">
             <img
+              loading="lazy"
               src={photoHero}
               alt="Husky siberiano majestoso em um campo ao pôr do sol no sítio Brazilian Pomsky"
               className="h-full w-full object-cover"
@@ -320,6 +322,7 @@ function PuppyModal({ puppy, onClose }: { puppy: Puppy; onClose: () => void }) {
 
           <div className="mb-4 aspect-[4/3] overflow-hidden rounded-xl bg-foreground/5">
             <img
+              loading="lazy"
               src={activePhoto}
               alt={`Foto do filhote ${puppy.name}`}
               className="h-full w-full object-cover"
@@ -338,7 +341,7 @@ function PuppyModal({ puppy, onClose }: { puppy: Puppy; onClose: () => void }) {
                   }`}
                   aria-label={`Ver foto ${i + 1}`}
                 >
-                  <img src={src} alt="" className="h-full w-full object-cover" />
+                  <img src={src} alt="" className="h-full w-full object-cover" loading="lazy"/>
                 </button>
               ))}
             </div>
