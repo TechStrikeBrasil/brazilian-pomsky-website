@@ -3,14 +3,14 @@ import { useEffect, useState } from "react";
 import type { Puppy } from "./types/puppy";
 import { PUPPIES } from "./data/puppies";
 
-import logo from "../src/assets/photos/logo.jpg";
+import logo from "../src/assets/photos/logo.webp";
 
-import photoHero from "../src/assets/photos/photo_hero.jpg";
-import photoDog1 from "../src/assets/photos/photo_dog_1.jpg";
-import photoMedals from "../src/assets/photos/photo_medals.jpg";
+import photoHero from "../src/assets/photos/photo_hero.webp";
+import photoDog1 from "../src/assets/photos/photo_dog_1.webp";
+import photoMedals from "../src/assets/photos/photo_medals.webp";
 
-import photoRanch from "../src/assets/photos/photo_ranch.jpg";
-import photoFamily from "../src/assets/photos/photo_family.jpg";
+import photoRanch from "../src/assets/photos/photo_ranch.webp";
+import photoFamily from "../src/assets/photos/photo_family.webp";
 
 // Configure o número de WhatsApp do criador aqui.
 const WHATSAPP_NUMBER = "5511956397507";
