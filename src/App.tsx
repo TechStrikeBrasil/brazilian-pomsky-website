@@ -25,13 +25,15 @@ function whatsappHref(): string {
 export default function App() {
   return (
     <div className="min-h-screen bg-background font-body text-foreground">
-      <Navigation />
-      <Hero />
-      <About />
-      <Puppies />
-      <Farm />
-      <Footer />
-      <WhatsAppButton />
+      <main>
+        <Navigation />
+        <Hero />
+        <About />
+        <Puppies />
+        <Farm />
+        <Footer />
+        <WhatsAppButton />
+      </main>
     </div>
   );
 }
@@ -45,7 +47,7 @@ function Navigation() {
             src={logo}
             alt="Logotipo Brazilian Pomsky"
             className="h-10 w-auto rounded-md"
-            loading="lazy"
+            fetchPriority="high"
             width={160}
             height={40}
           />
@@ -95,7 +97,8 @@ function Hero() {
         <div className="animate-reveal" style={{ animationDelay: "150ms" }}>
           <div className="aspect-[4/5] overflow-hidden rounded-[2rem] outline outline-1 -outline-offset-1 outline-foreground/10">
             <img
-              loading="lazy"
+              fetchPriority="high"
+              loading="eager"
               src={photoHero}
               alt="Husky siberiano majestoso em um campo ao pôr do sol no sítio Brazilian Pomsky"
               className="h-full w-full object-cover"
