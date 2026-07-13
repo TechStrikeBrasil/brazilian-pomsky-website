@@ -10,7 +10,7 @@ export const huskyWooly7 = [
     name: "Husky Wooly - Chocolate Velvet Macho",
     description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
     price: "R$ 6.900,00",
-    youtubeId: "tpqau9LhzA4",
+    youtubeId: "KkRZMATIa-I",
     image: photo1,
     age: "2 meses",
     rare: false,

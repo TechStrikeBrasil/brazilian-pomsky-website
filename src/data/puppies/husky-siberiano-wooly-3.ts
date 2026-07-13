@@ -10,7 +10,7 @@ export const huskyWooly3 = [
     name: "Husky Wooly - Silver Mist Macho",
     description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
     price: "R$ 6.900,00",
-    youtubeId: "3liZc1Kcd9w",
+    youtubeId: "W6p2P15nKZ4",
     image: photo1,
     age: "2 meses",
     rare: false,

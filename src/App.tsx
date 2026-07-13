@@ -136,13 +136,8 @@ function About() {
             </div>
             <div className="mt-10 flex gap-4">
               <div className="flex flex-col">
-                <span className="font-display text-3xl italic text-primary">10+</span>
-                <span className="text-[10px] uppercase tracking-wider text-muted-foreground">Anos de dedicação</span>
-              </div>
-              <div className="mx-4 w-px bg-border" />
-              <div className="flex flex-col">
-                <span className="font-display text-3xl italic text-primary">300+</span>
-                <span className="text-[10px] uppercase tracking-wider text-muted-foreground">Famílias felizes</span>
+                <span className="font-display text-3xl italic text-primary">30+ Prêmios</span>
+                <span className="text-[10px] uppercase tracking-wider text-muted-foreground">e medalhas conquistadas em competições.</span>
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ export const huskyWooly5 = [
     name: "Husky Wooly - Black Diamond Fêmea",
     description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
     price: "R$ 7.500,00",
-    youtubeId: "ZyWQ2fQatJ0",
+    youtubeId: "EHqoYG4Z13w",
     image: photo1,
     age: "2 meses",
     rare: false,

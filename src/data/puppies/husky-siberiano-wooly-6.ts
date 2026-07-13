@@ -9,7 +9,7 @@ export const huskyWooly6 = [
     name: "Husky Wooly - Lilac Champagne Fêmea",
     description: "Perfeito exemplar da raça, com genética extremamente selecionada. Marcações perfeitas.",
     price: "R$ 7.500,00",
-    youtubeId: "DxHSdgVOPew",
+    youtubeId: "-f-x7rOcNWg",
     image: photo1,
     age: "2 meses",
     rare: false,
