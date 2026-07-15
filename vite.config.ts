@@ -6,13 +6,12 @@ import Sitemap from "vite-plugin-sitemap";
 
 export default defineConfig({
   plugins: [react(), tailwindcss(), Sitemap({
-      hostname: 'https://techstrikebrasil.github.io/brazilian-pomsky-website/',
+      hostname: 'https://brazilianpomsky.com.br',
     }),],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/brazilian-pomsky-website/",
-  
+  base: "/",
 });
