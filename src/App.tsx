@@ -62,8 +62,8 @@ function Navigation() {
           <a href="#historia" className="transition-colors hover:text-primary">
             Nossa História
           </a>
-          <a href="#sitio" className="transition-colors hover:text-primary">
-            O Sítio
+          <a href="#rancho" className="transition-colors hover:text-primary">
+            O Rancho
           </a>
           <a href="#contato" className="transition-colors hover:text-primary">
             Contato
@@ -100,7 +100,7 @@ function Hero() {
               fetchPriority="high"
               loading="eager"
               src={photoHero}
-              alt="Husky siberiano majestoso em um campo ao pôr do sol no sítio Brazilian Pomsky"
+              alt="Husky siberiano majestoso em um campo ao pôr do sol no rancho Brazilian Pomsky"
               className="h-full w-full object-cover"
               width={1200}
               height={1504}
@@ -363,7 +363,7 @@ function PuppyModal({ puppy, onClose }: { puppy: Puppy; onClose: () => void }) {
 
 function Farm() {
   return (
-    <section id="sitio" className="px-6 py-24">
+    <section id="rancho" className="px-6 py-24">
       <div className="mx-auto max-w-7xl">
         <div className="flex flex-col items-center gap-16 md:flex-row">
           <div className="w-full md:w-1/2">
@@ -371,7 +371,7 @@ function Farm() {
               <div className="aspect-square overflow-hidden rounded-xl outline outline-1 -outline-offset-1 outline-foreground/10">
                 <img
                   src={photoRanch}
-                  alt="Foto do sítio Brazilian Pomsky"
+                  alt="Foto do rancho Brazilian Pomsky"
                   className="h-full w-full object-cover"
                   loading="lazy"
                   width={816}
@@ -427,7 +427,7 @@ function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col items-center text-center">
         <h2 className="font-display mb-4 text-3xl text-background">Pronto para um novo amigo?</h2>
         <p className="mb-10 max-w-md opacity-70">
-          Entre em contato para tirar dúvidas, agendar uma visita ao sítio ou conhecer nosso processo de reserva.
+          Entre em contato para tirar dúvidas, agendar uma visita ao rancho ou conhecer nosso processo de reserva.
         </p>
         <div className="flex flex-col gap-4 sm:flex-row">
           <a
