@@ -451,7 +451,7 @@ function Footer() {
         </div>
         <div className="mt-20 flex w-full flex-col items-center justify-between gap-4 border-t border-background/10 pt-8 text-[10px] uppercase tracking-widest opacity-40 md:flex-row">
           <span>Brazilian Pomsky © 2026</span>
-          <span>São Paulo, Brasil</span>
+          <span>SP, Brasil</span>
         </div>
       </div>
     </footer>
